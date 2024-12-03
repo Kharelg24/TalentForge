@@ -1,0 +1,43 @@
+.flex-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.title{
+    justify-content: center;
+}
+
+.award{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+p{
+    font-size: larger;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+}
+
+/* max-width: 600px (anything less than 600px)*/
+/* min-width: 600px (anything more than 600px*/
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+   
+}
+
+/* iPads/Tablets (481px - 1024px) */
+@media (max-width: 1024px) {
+    
+}
