@@ -50,11 +50,23 @@ ul{
 /* max-width: 600px (anything less than 600px)*/
 /* min-width: 600px (anything more than 600px*/
 /* Mobile devices (320px - 480px) */
-@media (max-width: 480px) {
-   
-}
-
-/* iPads/Tablets (481px - 1024px) */
 @media (max-width: 1024px) {
-    
+   .quote{
+    text-align: center;
+   }
+
+   .areaFormContainer{
+    flex-wrap: wrap;
+   }
+
+
+   .areaOfInterest{
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 15px;
+   }
+
+   .mini-title{
+    text-decoration: underline;
+   }
 }

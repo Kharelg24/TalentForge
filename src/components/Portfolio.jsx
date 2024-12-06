@@ -7,7 +7,7 @@ function Projects(){
         <div className="mid-section">
             <img className="diversity" src="./images/diversity.jpeg" alt="Diversity" />
             <div>
-                <h5>Diversity Equity & Inclusion</h5>
+                <h5 class="middle-main-name">Diversity Equity & Inclusion</h5>
                 <p>Initiated and supervised comprehensive 360-degree employee performance 
                     evaluations, which significantly enhanced leadership initiatives, and 
                     led to a measurable increase in employee satisfaction, engagement, and 
@@ -28,7 +28,7 @@ function PredictiveAnalytics(){
     return (
         <div className="Predictive">
             <div>
-                <h5>Predictive Analytics</h5>
+                <h5 class="middle-main-name">Predictive Analytics</h5>
                 <p>​By leveraging predictive analytics, I provided professional career 
                     counseling to an active rotating client list, assisting employees in 
                     navigating targeted career pathways and identifying career goals and 
@@ -53,7 +53,7 @@ function RiskReductionStrategy(){
     return (
         <div className="reduction">
             <div>
-                <h5>Compliance & Risk Reduction Strategy</h5>
+                <h5 class="middle-main-name">Compliance & Risk Reduction Strategy</h5>
                 <p>Worked with the C-Suite to develop a solution aligning with a 
                     major corporation's mission of sustainable, innovative, and accessible 
                     electric cars while being timely and economical. The 7 pillars of people 

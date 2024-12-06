@@ -86,8 +86,11 @@ video {
 /* max-width: 600px (anything less than 600px)*/
 /* min-width: 600px (anything more than 600px*/
 /* Mobile devices (320px - 480px) */
-@media (max-width: 480px) {
-   
+@media (max-width: 1024px) {
+    .photo-quote-grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /* iPads/Tablets (481px - 1024px) */

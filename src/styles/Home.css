@@ -6,7 +6,7 @@ body {
 .gridIdea {
     display: grid;
     grid-template-columns: 1fr 0.4fr;
-    height: 100vh; 
+    height: auto; 
     width: 100%;
     gap: 10px;
 }
@@ -85,11 +85,45 @@ body {
 /* Mobile devices (320px - 480px) */
 @media (max-width: 480px) {
    
+
 }
 
 /* iPads/Tablets (481px - 1024px) */
 @media (max-width: 1024px) {
-    
+
+    .gridIdea{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first{
+        font-size: 25px;
+    }
+
+    .second{
+        font-size: 25px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: end;
+    }
+
+    .photo {
+        margin-top: 5%;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 25%;
+        border: 5px solid black;
+        overflow: hidden;
+    }
+
+    .photo img {
+        width: 60%; 
+        height: 100%; 
+        object-fit: cover;
+    }
 }
 
 
