@@ -105,8 +105,6 @@ body {
         width: 300px;
         height: auto;
         object-fit: cover;
-        border-radius: 25%;
-        border: 5px solid black;
         overflow: hidden;
     }
 
