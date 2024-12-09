@@ -6,15 +6,12 @@ function FaceCard(){
     return (
         <div className= "pictureHome">
             <div className="photo"> 
-                <img className="photo" src="/images/melinda.jpg" alt="User"/>
+                <img className="photo" src="/images/melinda.png" alt="User"/>
             </div>
         
             <div className="name">
-            <h3 className="name">Melinda Baca</h3>  
-            </div>
-
-            <div className="occupation">
-            <h5 className="occupation">Senior Talent Management & <br />Analytics Professional</h5>
+                <h3 className="name">Melinda Baca</h3> 
+                <h5 className="occupation">Senior Talent Management & <br />Analytics Professional</h5> 
             </div>
         </div>
     );

@@ -31,7 +31,7 @@ function Contact(){
         return (
             <div class="interest-card"> 
                 <h5>{props.title}</h5>
-                <ul>
+                <ul class="interest-ul">
                     {props.points.map(point => (
                         <li key={point.id}>{point}</li>
                     ))}
