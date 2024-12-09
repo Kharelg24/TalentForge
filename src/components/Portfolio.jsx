@@ -5,7 +5,7 @@ import "../styles/Portfolio.css"
 function Projects(){
     return(
         <div className="mid-section">
-            <img className="diversity" src="/images/diversity.jpeg" alt="Diversity" />
+            <img className="diversity" src="/images/diversity.png" alt="Diversity" />
             <div>
                 <h5 class="middle-main-name">Diversity Equity & Inclusion</h5>
                 <p>Initiated and supervised comprehensive 360-degree employee performance 

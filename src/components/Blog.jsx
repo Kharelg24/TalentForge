@@ -3,7 +3,7 @@ import "../styles/Blog.css"
 
 function BulletPoints(props) {
     return (
-        <div class="keyPoints">
+        <div className="keyPoints">
             <li>
                 <strong>{props.reference.type}:</strong> {props.reference.decriptions}
             </li>
