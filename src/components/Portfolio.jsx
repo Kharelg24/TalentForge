@@ -43,7 +43,7 @@ function PredictiveAnalytics(){
                 </p>
             </div>
             
-            <img className="Analytics" src="/images/HRAnalytics.png" alt="Analytics"/>
+            <img className="Analytics" src="/images/HrAnalytics.png" alt="Analytics"/>
         </div>
 
     );
