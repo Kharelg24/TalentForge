@@ -35,7 +35,7 @@ function Top(){
     return(
         <div className="upperBlog" >
             <h1 className="title-blog"> The Power of Benchmarking in HR Analytics</h1>
-            <img className="talentanalytics" src="/images/talentAnalytics.jpeg" alt="Talent Analytics"/>
+            <img className="talentanalytics" src="/images/talentAnalytics.png" alt="Talent Analytics"/>
             <p>In today's competitive business landscape, organizations are constantly
                 seeking ways to imporve their processes, practices, and performance. One powerful tool
                 that has emerged in this quest for excellence is benchmarking. By comparing metrics with other
