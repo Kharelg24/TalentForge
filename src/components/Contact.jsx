@@ -26,7 +26,6 @@ function Contact(){
         );
     }
 
-
     function IntetestCard(props){
         return (
             <div class="interest-card"> 

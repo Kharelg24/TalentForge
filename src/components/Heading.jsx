@@ -86,20 +86,20 @@ function Heading() {
   PathName();
   return (
     <section className="header" style={{ backgroundColor: '#f6e9e5' }}>
-        <div className="container">
-            <header className="d-flex flex-wrap justify-content-center py-3 border-bottom">
+        <div className="container"> 
+          <header className="d-flex flex-wrap justify-content-center py-3 border-bottom">   
             <a href="/" className="d-flex align-items-center me-md-auto link-body-emphasis text-decoration-none">
-            <svg className="bi me-2" width="40" height="32"><use href="#bootstrap"></use></svg>
-            <span className="fs-4"><em>{className.heading}</em></span>
+              <svg className="bi me-2" width="40" height="32"><use href="#bootstrap"></use></svg>
+              <span className="fs-4"><em>{className.heading}</em></span>
             </a>
     
             <ul className="nav nav-pills">
-                <li className="nav-item"><Link to="/" className={className.home}>Home</Link></li>
-                <li className="nav-item"><Link to="/aboutMe" className={className.aboutMe}>About Me</Link></li>
-                <li className="nav-item"><Link to="/portfolio" className={className.portfolio}>Portfolio</Link></li>
-                <li className="nav-item"><Link to="/blog" className={className.blog}>Blog</Link></li>
-                <li className="nav-item"><Link to="/feedback" className={className.feedback}>Feedback</Link></li>
-                <li className="nav-item"><Link to="/contact" className={className.contact}>Contact Me</Link></li>
+              <li className="nav-item"><Link to="/" className={className.home}>Home</Link></li>
+              <li className="nav-item"><Link to="/aboutMe" className={className.aboutMe}>About Me</Link></li>
+              <li className="nav-item"><Link to="/portfolio" className={className.portfolio}>Portfolio</Link></li>
+              <li className="nav-item"><Link to="/blog" className={className.blog}>Blog</Link></li>
+              <li className="nav-item"><Link to="/feedback" className={className.feedback}>Feedback</Link></li>
+              <li className="nav-item"><Link to="/contact" className={className.contact}>Contact Me</Link></li>
             </ul>
             </header>
         </div>

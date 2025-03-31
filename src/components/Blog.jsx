@@ -12,7 +12,6 @@ function BulletPoints(props) {
     );
 }
 
-
 function Roles(reference) {
     return <BulletPoints reference={reference} />
 }
@@ -29,7 +28,6 @@ function StakeHolders(){
         </div>
     );
 }
-
 
 function Top(){
     return(
@@ -79,8 +77,6 @@ function Bottom(){
        
     );
 }
-
-
 
 
 function Blog(){

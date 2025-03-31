@@ -9,7 +9,9 @@ import Feedback from "./FeedBack";
 import Footer from "./Footer";
 import Blog from "./Blog";
 
-function App() {
+
+
+function  App() {
   return (
     <BrowserRouter>
       <Heading />
